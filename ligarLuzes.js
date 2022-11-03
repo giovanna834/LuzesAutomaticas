@@ -6,13 +6,13 @@ let indexCor = 0;
 let idIntervalo = null;
 
 const ligarAutomatico = {
-    'vermelho': () => imagem.src = './assets/vermelho.png',
-    'amarelo': () => imagem.src = './assets/amarelo.png',
-    'verde': () => imagem.src = './assets/verde.png',
-    'azul': () => imagem.src = './assets/azul.png',
+    'vermelho': () => imagem.src = 'vermelho.png',
+    'amarelo': () => imagem.src = 'amarelo.png',
+    'verde': () => imagem.src = 'verde.png',
+    'azul': () => imagem.src = 'azul.png',
     'automatico': () => idIntervalo = setInterval(mudarCor, 1000),
-    'desligar' : () => imagem.src ='./assets/desligado.png',
-    'ligar' : () => imagem.src ='./assets/ligado.png'
+    'desligar' : () => imagem.src ='desligado.png',
+    'ligar' : () => imagem.src ='ligado.png'
 }
 
 const cores = ['verde', 'amarelo', 'vermelho', 'azul'] 
