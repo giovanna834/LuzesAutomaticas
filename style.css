@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(245, 213, 175);
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 100px;
+}
+#imagem-luzes{
+    width: 800px;
+}
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.botao-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    color: red;
+    background-color: rgb(65, 63, 63);
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 1px 1px 6px #545b6dab;
+}
+.botao-menu:nth-child(1):hover{
+    background-color: #b1fcaf;
+}
+.botao-menu:nth-child(2):hover{
+    background-color: #f89696;
+    
+}
+.botao-menu:nth-child(3):hover{
+    background-color: #aecaff;
+}
